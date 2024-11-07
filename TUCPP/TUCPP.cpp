@@ -1,11 +1,18 @@
-// TUCPP.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 
 int main()
 {
+    int i = 5;
+    double d = 5.12;
+    float f = 3.12345f;
+    char c = 'p';
+    bool isFalse = false;
+    unsigned int unit = -1;
+    std::cout << sizeof(double);
+
     std::cout << "Hello World!\n";
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
